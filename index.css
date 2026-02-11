@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+#login_button {
+  width: 128px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px 23px 12px 23px;
+  background-color: #3692ff;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#intro {
+  background-color: #cfe5ff;
+  width: 1920px;
+  height: 540px;
+}
