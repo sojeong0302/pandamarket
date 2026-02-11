@@ -5,28 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>판다마켓</title>
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
   </head>
   <body>
     <header class="header">
-      <a href="/">
-        <img id="logo" src="img/logo.png" alt="로고" />
-      </a>
-      <a href="/login">
-        <button id="login_button">로그인</button>
-      </a>
+      <div id="header_div">
+        <a href="/">
+          <img id="logo" src="img/logo.png" alt="로고" />
+        </a>
+        <a href="/login">
+          <button id="login_button">로그인</button>
+        </a>
+      </div>
     </header>
     <main>
       <div id="intro">
         <div id="intro_div">
-          <div id="intro_text">일상의 모든 물건을 </br>거래해 보세요</div>
+          <div id="intro_text">일상의 모든 물건을 <br />거래해 보세요</div>
           <a href="/items">
             <button id="sightseeing_button">구경하러 가기</button>
           </a>
         </div>
         <img id="intro_img" src="img/intro_panda.png" alt="판다 이미지" />
       </div>
-      <div>
-        <img id="dress" alt=""/>
+      <div class="card">
+        <div class="nav_option">
+          <img
+            id="option_img"
+            src="/img/top.png"
+            alt="인기 상품을 확인해보세요"
+          />
+          <div class="option">
+            <div class="option_name">Hot item</div>
+            <div class="optrion_title_explan">
+              <div class="option_title">인기 상품을 <br />확인해 보세요</div>
+              <div class="option_explan">
+                가장 HOT한 중고거래 물품을 <br />판다 마켓에서 확인해 보세요
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="nav_option">
+          <div class="option2">
+            <div class="option_name">Search</div>
+            <div class="optrion_title_explan">
+              <div class="option_title">
+                구매를 원하는 <br />상품을 검색하세요
+              </div>
+              <div class="option_explan">
+                구매하고 싶은 물품은 검색해서쉽게 찾아보세요
+              </div>
+            </div>
+          </div>
+          <img
+            id="option_img"
+            src="/img/search.png"
+            alt="인기 상품을 확인해보세요"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <div class="nav_option">
+          <img
+            id="option_img"
+            src="/img/upload.png"
+            alt="인기 상품을 확인해보세요"
+          />
+          <div class="option">
+            <div class="option_name">Register</div>
+            <div class="optrion_title_explan">
+              <div class="option_title">
+                판매를 원하는 <br />상품을 등록하세요
+              </div>
+              <div class="option_explan">
+                어떤 물건이든 판매하고 싶은 상품을 <br />쉽게 등록하세요
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
