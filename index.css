@@ -20,7 +20,6 @@ a {
 #header_div {
   display: flex;
   height: 51px;
-  width: 1520px;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
