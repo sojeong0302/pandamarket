@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: inherit; /* 부모 색상 따라가게 */
+}
+
 .header {
   padding: 9px 200px 9px 200px;
   border-bottom: 1px solid #dfdfdf;
