@@ -36,7 +36,7 @@ body {
 
 #intro {
   background-color: #cfe5ff;
-  width: 100%;
+  /* width: 100%; */
   height: 540px;
   display: flex;
   justify-content: center;
@@ -163,9 +163,46 @@ body {
   font-size: 40px;
   line-height: 140%;
   color: #374151;
+  font-family: Pretendard, sans-serif;
 }
 
 #footer_corver_img {
   width: 746px;
   height: 397px;
+}
+
+#footer_nav {
+  background-color: #111827;
+  width: 100%;
+}
+
+#footer_content {
+  display: flex;
+  justify-content: space-between;
+  height: 160px;
+  padding: 32px 200px 32px 200px;
+  gap: 10px;
+}
+
+#text_codeit_2024 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #9ca3af;
+  font-family: Pretendard, sans-serif;
+}
+
+#footer_policy {
+  display: flex;
+  color: #e5e7eb;
+  gap: 30px;
+  font-family: Pretendard, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+#icons {
+  display: flex;
+  gap: 12px;
 }
