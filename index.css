@@ -146,3 +146,26 @@ body {
   color: #374151;
   font-family: Pretendard, sans-serif;
 }
+
+#footer_corver {
+  background-color: #cfe5ff;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 69px;
+}
+
+#footer_corver_text {
+  display: flex;
+  align-self: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #374151;
+}
+
+#footer_corver_img {
+  width: 746px;
+  height: 397px;
+}
