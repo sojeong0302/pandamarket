@@ -10,17 +10,20 @@ a {
 .header {
   padding: 9px 200px 9px 200px;
   border-bottom: 1px solid #dfdfdf;
-  position: fixed;
   background-color: #ffffff;
-  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #header_div {
   display: flex;
-  /* width: 1520px; */
   height: 51px;
+  width: 1520px;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
 }
 
 #logo {
