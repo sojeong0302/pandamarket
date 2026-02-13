@@ -104,7 +104,7 @@ a {
   background-color: #ffffff;
 }
 
-.nav-option {
+.card-container {
   display: flex;
   background-color: #fcfcfc;
   justify-content: center;
@@ -113,18 +113,18 @@ a {
   height: 27.75rem;
   gap: 4rem;
 }
-.option-img {
+.card-image {
   width: 36.75rem;
   height: 27.75rem;
 }
-.option {
+.card-content {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   width: 19.8125rem;
   height: 14.875rem;
 }
-.option2 {
+.card-content2 {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -133,7 +133,7 @@ a {
   text-align: right;
 }
 
-.option-name {
+.card-title {
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 1.625rem;
@@ -141,14 +141,14 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-.optrion-title-explan {
+.card-body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   font-family: Pretendard, sans-serif;
 }
 
-.option-title {
+.card-summary {
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 1.4;
@@ -157,7 +157,7 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-.option-explan {
+.card-explan {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
