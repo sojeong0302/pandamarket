@@ -17,7 +17,7 @@ a {
   right: 0;
 }
 
-#header-container {
+.header-container {
   display: flex;
   height: 3.1875rem;
   justify-content: space-between;
@@ -25,11 +25,11 @@ a {
   margin: 0 auto;
 }
 
-#header-logo {
+.header-logo {
   cursor: pointer;
 }
 
-#header-navigation {
+.header-navigation {
   width: 8rem;
   height: 3rem;
   border-radius: 0.5rem;
@@ -40,7 +40,7 @@ a {
   justify-content: center;
 }
 
-#header-login-button {
+.header-login-button {
   padding: 0.75rem 1.4375rem 0.75rem 1.4375rem;
   line-height: 1.625rem;
   font-family: Pretendard, sans-serif;
@@ -49,7 +49,7 @@ a {
   font-size: 1rem;
 }
 
-#intro {
+.intro {
   background-color: #cfe5ff;
   height: 33.75rem;
   display: flex;
@@ -58,7 +58,7 @@ a {
   margin-top: 4.375rem;
 }
 
-#intro_div {
+.intro-container {
   display: flex;
   flex-direction: column;
   width: 22.3125rem;
@@ -66,7 +66,7 @@ a {
   gap: 2rem;
 }
 
-#intro_text {
+.intro-text {
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 1.4;
@@ -74,22 +74,25 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-#sightseeing_button {
+.intro-navigation {
   border-radius: 2.5rem;
-  padding: 1rem 7.75rem 1rem 7.75rem;
+  cursor: pointer;
   background-color: #3692ff;
-  border: none;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.intro-cta {
   color: white;
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 2rem;
-  cursor: pointer;
-  /* 줄바꿈 방지 */
-  white-space: nowrap;
   font-family: Pretendard, sans-serif;
+  padding: 1rem 7.75rem 1rem 7.75rem;
 }
 
-#intro_img {
+.intro_img {
   width: 46.625rem;
   height: 21.25rem;
 }
@@ -162,7 +165,7 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-#footer_corver {
+.footer_corver {
   background-color: #cfe5ff;
   height: 33.75rem;
   display: flex;
@@ -172,7 +175,7 @@ a {
   margin-top: 9.75rem;
 }
 
-#footer_corver_text {
+.footer_corver_text {
   display: flex;
   align-self: center;
   font-weight: 700;
@@ -182,17 +185,17 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-#footer_corver_img {
+.footer_corver_img {
   width: 46.625rem;
   height: 24.8125rem;
 }
 
-#footer_nav {
+.footer_nav {
   background-color: #111827;
   width: 100%;
 }
 
-#footer_content {
+.footer_content {
   display: flex;
   justify-content: space-between;
   height: 10rem;
@@ -200,7 +203,7 @@ a {
   gap: 0.625rem;
 }
 
-#text_codeit_2024 {
+.text_codeit_2024 {
   font-weight: 400;
   font-size: 1rem;
   line-height: 100%;
@@ -208,7 +211,7 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-#footer_policy {
+.footer_policy {
   display: flex;
   color: #e5e7eb;
   gap: 1.875rem;
@@ -218,7 +221,7 @@ a {
   line-height: 100%;
 }
 
-#icons {
+.icons {
   display: flex;
   gap: 0.75rem;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>판다마켓</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
@@ -11,33 +12,32 @@
       crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
     />
-    <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
     <header class="header">
-      <div id="header-container">
+      <div class="header-container">
         <a href="/">
-          <img id="header-logo" src="img/logo.png" alt="로고" />
+          <img class="header-logo" src="img/logo.png" alt="로고" />
         </a>
-        <nav id="header-navigation">
-          <a href="/login" id="header-login-button">로그인</a>
+        <nav class="header-navigation">
+          <a href="/login" class="header-login-button">로그인</a>
         </nav>
       </div>
     </header>
     <main>
-      <div id="intro">
-        <div id="intro_div">
-          <div id="intro_text">일상의 모든 물건을 <br />거래해 보세요</div>
-          <a href="/items">
-            <button id="sightseeing_button">구경하러 가기</button>
-          </a>
+      <div class="intro">
+        <div class="intro-container">
+          <div class="intro-text">일상의 모든 물건을 <br />거래해 보세요</div>
+          <nav class="intro-navigation">
+            <a href="/items" class="intro-cta">구경하러 가기</a>
+          </nav>
         </div>
-        <img id="intro_img" src="img/intro_panda.png" alt="판다 이미지" />
+        <img class="intro_img" src="img/intro_panda.png" alt="판다 이미지" />
       </div>
       <div class="card">
         <div class="nav_option">
           <img
-            id="option_img"
+            class="option_img"
             src="/img/top.png"
             alt="인기 상품을 확인해보세요"
           />
@@ -66,7 +66,7 @@
             </div>
           </div>
           <img
-            id="option_img"
+            class="option_img"
             src="/img/search.png"
             alt="인기 상품을 확인해보세요"
           />
@@ -75,7 +75,7 @@
       <div class="card">
         <div class="nav_option">
           <img
-            id="option_img"
+            class="option_img"
             src="/img/upload.png"
             alt="인기 상품을 확인해보세요"
           />
@@ -94,22 +94,24 @@
       </div>
     </main>
     <footer>
-      <div id="footer_corver">
-        <div id="footer_corver_text">믿을 수 있는 <br />판다마켓 중고 거래</div>
+      <div class="footer_corver">
+        <div class="footer_corver_text">
+          믿을 수 있는 <br />판다마켓 중고 거래
+        </div>
         <img
-          id="footer_corver_img"
+          class="footer_corver_img"
           src="/img/footer_panda.png"
           alt="푸터 판다 이미지"
         />
       </div>
-      <div id="footer_nav">
-        <div id="footer_content">
-          <div id="text_codeit_2024">@codeit - 2024</div>
-          <div id="footer_policy">
+      <div class="footer_nav">
+        <div class="footer_content">
+          <div class="text_codeit_2024">@codeit - 2024</div>
+          <div class="footer_policy">
             <a href="/privacy"><div>Privacy Policy</div></a>
             <a href="/faq"><div>FAQ</div></a>
           </div>
-          <div id="icons">
+          <div class="icons">
             <a
               href="https://www.facebook.com/"
               target="_blank"
