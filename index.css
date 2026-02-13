@@ -92,7 +92,7 @@ a {
   padding: 1rem 7.75rem 1rem 7.75rem;
 }
 
-.intro_img {
+.intro-img {
   width: 46.625rem;
   height: 21.25rem;
 }
@@ -104,7 +104,7 @@ a {
   background-color: #ffffff;
 }
 
-.nav_option {
+.nav-option {
   display: flex;
   background-color: #fcfcfc;
   justify-content: center;
@@ -113,7 +113,7 @@ a {
   height: 27.75rem;
   gap: 4rem;
 }
-.option_img {
+.option-img {
   width: 36.75rem;
   height: 27.75rem;
 }
@@ -133,7 +133,7 @@ a {
   text-align: right;
 }
 
-.option_name {
+.option-name {
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 1.625rem;
@@ -141,14 +141,14 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-.optrion_title_explan {
+.optrion-title-explan {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   font-family: Pretendard, sans-serif;
 }
 
-.option_title {
+.option-title {
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 1.4;
@@ -157,7 +157,7 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-.option_explan {
+.option-explan {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -165,7 +165,7 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-.footer_corver {
+.footer-corver {
   background-color: #cfe5ff;
   height: 33.75rem;
   display: flex;
@@ -175,7 +175,7 @@ a {
   margin-top: 9.75rem;
 }
 
-.footer_corver_text {
+.footer-corver-text {
   display: flex;
   align-self: center;
   font-weight: 700;
@@ -185,17 +185,17 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-.footer_corver_img {
+.footer-corver-img {
   width: 46.625rem;
   height: 24.8125rem;
 }
 
-.footer_nav {
+.footer-nav {
   background-color: #111827;
   width: 100%;
 }
 
-.footer_content {
+.footer-content {
   display: flex;
   justify-content: space-between;
   height: 10rem;
@@ -203,7 +203,7 @@ a {
   gap: 0.625rem;
 }
 
-.text_codeit_2024 {
+.text-codeit-2024 {
   font-weight: 400;
   font-size: 1rem;
   line-height: 100%;
@@ -211,7 +211,7 @@ a {
   font-family: Pretendard, sans-serif;
 }
 
-.footer_policy {
+.footer-policy {
   display: flex;
   color: #e5e7eb;
   gap: 1.875rem;
