@@ -3,18 +3,35 @@ input {
   outline: none; /* 포커스 파란 테두리 제거 */
   background: none; /* 기본 배경 제거 */
 }
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .logo {
   width: 396px;
   height: 132px;
 }
 
+.login-from {
+  display: flex;
+  /* width: 640px;
+  height: 446px; */
+  gap: 24px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
 .form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-kind {
   display: flex;
   flex-direction: column;
   gap: 24px;

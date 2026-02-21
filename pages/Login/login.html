@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../../reset.css" />
     <link rel="stylesheet" href="/pages/Login/login.css" />
     <link
       rel="stylesheet"
@@ -15,28 +16,37 @@
   <body>
     <main class="main">
       <img class="logo" src="../../img/logo.png" />
-      <div class="form">
-        <form class="form-container">
-          <label for="email" class="form-name">이메일</label>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            class="form-input"
-            placeholder="이메일을 입력해주세요"
-          />
-        </form>
-        <form class="form-container">
-          <label for="password" class="form-name">비밀번호</label>
-          <input
-            type="text"
-            id="password"
-            name="password"
-            class="form-input"
-            placeholder="비밀번호를 입력해주세요"
-          />
-        </form>
-        <a class="login-button">로그인</a>
+      <div class="login-from">
+        <section class="form">
+          <div class="form-kind">
+            <form class="form-container">
+              <label for="email" class="form-name">이메일</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="이메일을 입력해주세요"
+              />
+            </form>
+            <form class="form-container">
+              <label for="password" class="form-name">비밀번호</label>
+              <input
+                type="text"
+                id="password"
+                name="password"
+                class="form-input"
+                placeholder="비밀번호를 입력해주세요"
+              />
+            </form>
+          </div>
+          <a class="login-button">로그인</a>
+        </section>
+        <section>
+          <div>간편 로그인하기</div>
+          <div></div>
+        </section>
+        <section>판다마켓이 처음이신가요?</section>
       </div>
     </main>
   </body>
