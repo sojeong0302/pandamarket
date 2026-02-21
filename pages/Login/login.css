@@ -58,6 +58,11 @@ input {
   padding: 16px 24px 16px 24px;
   background-color: #f3f4f6;
   box-sizing: border-box;
+  position: relative;
+}
+
+.form-wipper {
+  position: relative;
 }
 
 .form-input::placeholder {
@@ -67,6 +72,15 @@ input {
   line-height: 26px;
   letter-spacing: 0%;
   color: #9ca3af;
+}
+
+.password-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .login-button {
@@ -87,4 +101,35 @@ input {
   justify-content: center;
   cursor: pointer;
   box-sizing: border-box;
+}
+
+.simple-login {
+  width: 640px;
+  height: 74px;
+  border-radius: 8px;
+  padding: 16px 23px 16px 23px;
+  gap: 10px;
+  background-color: #e6f2ff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.simple-login-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.kakko-logo-container {
+  position: relative;
+}
+
+.kakao-logo {
+  width: 26px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
 }

@@ -31,20 +31,40 @@
             </form>
             <form class="form-container">
               <label for="password" class="form-name">비밀번호</label>
-              <input
-                type="text"
-                id="password"
-                name="password"
-                class="form-input"
-                placeholder="비밀번호를 입력해주세요"
-              />
+              <div class="form-wipper">
+                <input
+                  type="text"
+                  id="password"
+                  name="password"
+                  class="form-input"
+                  placeholder="비밀번호를 입력해주세요"
+                />
+                <img
+                  src="../../img/password_icon.png"
+                  alt="비밀번호 숨김 아이콘"
+                  class="password-icon"
+                />
+              </div>
             </form>
           </div>
           <a class="login-button">로그인</a>
         </section>
-        <section>
-          <div>간편 로그인하기</div>
-          <div></div>
+        <section class="simple-login">
+          <p>간편 로그인하기</p>
+          <div class="simple-login-icons">
+            <img src="../../img/google_icon.png" alt="구글 아이콘" />
+            <div class="kakko-logo-container">
+              <img
+                src="../../img/kakao_background.png"
+                alt="카카오톡 아이콘(배경)"
+              />
+              <img
+                class="kakao-logo"
+                src="../../img/kakao_logo.png"
+                alt="카카오톡 아이콘"
+              />
+            </div>
+          </div>
         </section>
         <section>판다마켓이 처음이신가요?</section>
       </div>
