@@ -9,6 +9,8 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  gap: 40px;
 }
 
 .logo {
@@ -18,8 +20,6 @@ input {
 
 .login-from {
   display: flex;
-  /* width: 640px;
-  height: 446px; */
   gap: 24px;
   box-sizing: border-box;
   flex-direction: column;
@@ -74,6 +74,10 @@ input {
   color: #9ca3af;
 }
 
+.form-input:focus {
+  border: 1px solid #3692ff;
+}
+
 .password-icon {
   width: 24px;
   height: 24px;
@@ -121,8 +125,13 @@ input {
   gap: 16px;
 }
 
+.google-logo {
+  cursor: pointer;
+}
+
 .kakko-logo-container {
   position: relative;
+  cursor: pointer;
 }
 
 .kakao-logo {
@@ -132,4 +141,27 @@ input {
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
+}
+
+.signup-link {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-link-font {
+  font-family: Pretendard, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.go-signup {
+  font-family: Pretendard, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
