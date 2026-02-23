@@ -201,6 +201,7 @@ a {
   height: 10rem;
   padding: 2rem 12.5rem 2rem 12.5rem;
   gap: 0.625rem;
+  box-sizing: border-box;
 }
 
 .text-codeit-2024 {
